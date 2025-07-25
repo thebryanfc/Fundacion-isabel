@@ -90,20 +90,16 @@
     </div>
 </section>
 
-
-<!--Sobre nosotros | falta arreglar el div -->
-<div class="row">
-    <div class="col-md-12 mb-4">
-        <div class="card h-100 shadow">
-            <div class="card-body">
-                <img src="/images/FI-nosotros-2.png">
-                <h6 class="card-title">SOBRE NOSOTROS</h6>
-                <H2>Ayudamos a las mujeres a nunca dudar de lo valiosas que son.</H2>
+<!-- Sobre nosotros -->
+<div class="hero-section d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('/images/FI-nosotros-2.png');">
+    <div class="overlay"></div>
+        <div class="content position-relative">
+                <h6 class="card-title text-uppercase text-muted">Sobre Nosotros</h6>
+                <h2 class="mb-3">Ayudamos a las mujeres a nunca dudar de lo valiosas que son.</h2>
                 <p class="card-text">
-                   Creemos en su fuerza y potencial, y trabajamos para que cada una descubra su valor y construya un futuro libre de violencia y lleno de posibilidades. Queremos empoderarlas para que tomen el control de sus vidas, 
-                   alcancen sus sueños y rompan cualquier barrera que limite su crecimiento personal y profesional
+                    Creemos en su fuerza y potencial, y trabajamos para que cada una descubra su valor y construya un futuro libre de violencia y lleno de posibilidades. Queremos empoderarlas para que tomen el control de sus vidas, 
+                    alcancen sus sueños y rompan cualquier barrera que limite su crecimiento personal y profesional.
                 </p>
-            </div>
         </div>
     </div>
 </div>
