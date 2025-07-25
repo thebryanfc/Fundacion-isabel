@@ -1,0 +1,110 @@
+.hero-section {
+    position: relative;
+    height: 100vh; /* altura completa de pantalla */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* oscurece el fondo */
+    z-index: 1;
+}
+
+.hero-section .content {
+    z-index: 2;
+}
+
+.violencia-economica-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+    padding: 60px 0;
+}
+
+.texto-fondo {
+    background-color: rgba(0, 0, 0, 0.5); /* fondo semitransparente */
+    display: inline-block;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.btn-purple {
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-purple:hover {
+    background-color: #5a36a0;
+    color: #fff;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.brecha-card {
+    bottom: -20px;
+    right: 40px;
+    background: white;
+    max-width: 450px;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .brecha-card {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+.btn-purple {
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-purple:hover {
+    background-color: #5a36a0;
+    color: #fff;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-body h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-body p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
